@@ -2,8 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { environment } from '../../environments/environment'
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { Resolve } from '@angular/router';
 import { PokemonModel } from 'src/Models/PokemonModel';
+
 
 @Component({
   selector: 'generation-one',
